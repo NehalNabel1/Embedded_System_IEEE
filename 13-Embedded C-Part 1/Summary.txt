@@ -1,0 +1,35 @@
+Identifer  
+ • Boolen variable has only two possible state 0,1 
+ • Floating point :decimal point after the number 
+ • .L is long double 
+ • Constant expression such 3+7+9.2 evaluated at compile time and replaced single constant 19.2 
+ • Sizeof('Z') will equally 4 not 1 
+ •  Sizeof("Z") will equally 2 not 1 because it means Z\0 
+  
+ Type specifier 
+ 1. Singed : my have negative value ans MSB is its sign-bit and the value encoded in 2's complement binary 
+ 2. Unsigned: non negative  
+ 3. Int default signed but char default unsigned 
+ 4. Short ===signed short int 
+ 5. signed/unsigned===signed int 
+  
+ ________ 
+ Type qualifier 
+  
+ • Const qualifier:store in Rom  
+ • Volatile qualifier:ex Empty delay loop 
+  
+_____ 
+ 1. Shift right: Add zero in MSB and delete bit from LSB  
+ 2. Shift left: Add zero in LSB and delete bit from MSB  
+_______ 
+  
+ • Scope: describe the visibility of the identifier within the program /local and External 
+ • Extent :the lifetime, when memory allocate to store it and when memory is released 
+ _____ 
+ • Extern : declaration/ and we use it in multi file project  
+  ___ 
+ 
+ • Static with global variables : the variable can not seen outside the file (become file scope) 
+ • Static with local variables: the variable will be stored in .datat in RAM and ROM ( it's lifetime will be the same as the project ) 
+ _____
